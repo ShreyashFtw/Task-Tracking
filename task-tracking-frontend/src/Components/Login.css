@@ -1,0 +1,63 @@
+/* Reset some default styles and set a background color */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: #a0b448;
+    border: 1px solid #ca0f0f;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.login h1 {
+    color: #1b0707;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.user,
+.pass {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 6px;
+    width: 96%;
+    border: 1px solid #2e0101;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.user::placeholder,
+.pass::placeholder {
+    color: #999;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #01b83e;
+}
